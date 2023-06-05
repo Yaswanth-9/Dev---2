@@ -1,0 +1,204 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+
+
+.header, .head2, .head2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0 40px;
+    align-items: center;
+   
+}
+.head2>p{
+    font-size: 20px;
+}
+
+.icon  {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 0 20px;   
+}
+.icon img{
+    height: 22px;
+    width: 22px;
+}
+
+.image {
+    background-image: url('man2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+    
+}
+
+.image h4{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+.image h1{
+    font-size: 75px;
+    color: white;
+    margin: 0;
+}  
+
+.image button{
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+
+.row {
+    display:flex; 
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 175px;
+}
+
+.card img{
+    
+    height: 100%;
+    width: 200px; 
+    object-fit: cover;
+    
+
+}
+
+.card {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 450px;
+    border: 1px solid rgb(226, 212, 212);
+    padding: 15px;
+}
+.card h3 {
+    
+    font-size: 30px;
+    
+}
+
+.card p {
+    
+    font-size: 20px;
+    
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 170px ;
+}
+.para {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px 30px; 
+
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 15px;
+    gap: 10px 20px;
+}
+
+.buttons button{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 1px  solid rgb(237, 225, 225);
+}
+h1{
+    font-size: 35px;
+    padding: 0 170px;
+}
+
+
+
+
+.third {
+   display: flex;
+   flex-direction: row;
+   
+   justify-content: center;
+   
+   gap: 10px ;
+   margin: 40px 50px;
+}
+
+.bot img {
+    height: 350px;
+    width: 270px;
+}
+.bot p{
+    text-align: left;
+    font-size: 15px;
+    color: brown;
+}
+
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    gap: 20px;
+    background-color: black;
+    padding: 80px 160px;
+}
+
+.common {
+    
+
+    color: white;
+
+
+    width: 250px;
+    padding: none;
+}
+
+.common p {
+    font-size: 15px;
+    
+}
+
+.common h4{
+    font-size: 20px;
+    
+}
+.common button {
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.fourth p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
